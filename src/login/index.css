@@ -1,0 +1,198 @@
+@media screen and (min-width: 768px) {
+    .Global__containter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1500px;
+    height: 750px;
+    background-color: #F3E0E2FF;
+}
+.login__containter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,white 0%,white 50%,#FF4551 50%, rgb(255, 105, 158) 100%);
+    width: 850px;
+    height: 500px;
+    border-radius: 10px;
+}
+.login__left{
+    display: flex;
+    flex-direction: column;
+}
+#tw{
+    width: 37px;
+    height: 37px;   
+}
+#fb{
+    width: 30px;
+    height: 30px;   
+}
+#h2{
+    font-size: 35px;
+    text-align: center;
+}
+.login__right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    width: 425px;
+    height: 500px;
+    margin-left: 20px;
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    padding: 15px;
+    row-gap: 15px;
+    
+}
+#input1,#input2{
+    width: 60%;
+    border: none;
+    background-color: #c2c2a3;
+
+}
+#h5{
+    text-align: center;
+}
+#btn{
+    padding: 10px 10px;
+    background-color: #FF4B2B;
+    border: none;
+    border-radius: 50px;
+    color: #ffff;
+    width: 25%;
+    
+}
+.h1{
+    text-align: center;
+}
+.par{
+    text-align: center;
+}
+.swith{
+    text-align: center;
+}
+#right__heading_1{
+    text-align: center
+}
+.left__mid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    gap: 15px;
+}
+
+
+}
+@media screen and (max-width: 400px) {
+    
+*{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    
+}
+.Global__containter{
+    
+    width: 100%;
+    height: 100%;
+}
+.login__containter{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 250px;
+}
+.login__left{
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+#tw{
+    width: 37px;
+    height: 37px;   
+}
+#fb{
+    width: 30px;
+    height: 30px;   
+}
+#h2{
+    font-size: 35px;
+    text-align: center;
+}
+.login__right{
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+    background: linear-gradient(#FF4551 50%, rgb(255, 105, 158) 100%);
+
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-left: 13px;
+    row-gap: 15px;
+    
+}
+#right__heading_1, #right__heading_2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+#input1,#input2{
+    width: 75%;
+    border: none;
+    background-color: #c2c2a3;
+
+}
+#h5{
+    text-align: center;
+    font-size: 8px;
+    margin-bottom: 160px;
+    margin-top: 40px;
+}
+#btn{
+    padding: 10px 10px;
+    background-color: #FF4B2B;
+    border: none;
+    border-radius: 50px;
+    color: #ffff;
+    width: 30%;
+}
+.h1{
+    text-align: center;
+}
+.par{
+    font-size: 10px;
+    text-align: center;
+    margin: 0;
+}
+.swith{
+    font-size: 10px;
+    text-align: center;
+    margin: 0;
+}
+.left__mid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+    
+}
